@@ -26,7 +26,7 @@ The focus of this study was first wrangling the data and then finding out answer
 
 The data contains the timestamp, calls in and out, province names where the call is outgoing, and the location grid. The datasets referring to the Trentino territory are spatially aggregated using a grid. The grid consists of a cellid abd the cell geometry, which is  expressed as geoJSON. The portion of territory covered by the grid is shown in the following picture where the grid (red-gray) is overlaid to the northern part of Italy. The Trentino province is highlighted in violet.
 
-(./assets/images/trentino-grid-img2.png)
+![Trento Grid](./assets/images/trentino-grid-img2.png)
 
 
 #### Weather data
