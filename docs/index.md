@@ -2,28 +2,32 @@
 layout: default
 ---
 
-[Introduction](./index.html) | [Correlation Analysis](./pages/corr_analysis.html) | [Forecasting](./pages/forecasting.html) | [Conclusion](./pages/conclusion.html)
-Telecom Italia
-Telecom-Italia-Data-Analysis
-At the beginning of 2014, Telecom Italia launched the first edition of the Big Data Challenge, a contest designed to stimulate the creation and development of innovative technological ideas in the Big Data field. I used the data of two provinces Milano and Trento to analyse telecommunication activities, pattern, usage during the day and night. For the very provinces, i analysed the weather data and tried to find out the correlation between different weather conditions (clear, rainy, snow) and communication pattern.
+[Introduction](./index.html) | [Milano Data Analysis](./pages/milano.html) | [Trento Data Analysis](./pages/trento.html) | [Weather Correlation](./pages/correlation.html)
+
+At the beginning of 2014, Telecom Italia launched the first edition of the Big Data Challenge, a contest designed to stimulate the creation and development of innovative technological ideas in the Big Data field. For the analysis purpose, I used the data of two provinces Milano and Trento to analyse telecommunication activities, usage pattern, usage during the day and night. For the very provinces, i analysed the weather data and tried to find out the correlation between different weather conditions (clear, rainy, snow) and communication pattern. Since, the volume of data was huge, so a good was to apply the analysis methods was to use GraphLab as the purpose of this study was to learn parallel computation with big data. 
+
 ### Data Description
 
-In this study we make use of three general kinds of datasets -electricity demand/usage data, weather data and energy price data which tells the daily price for electricity at the selected location. The data spans one year (18/05/2017 - 18/05/2018)  and recorded on hourly observations leading to about 8760 observations. The general working hypothesis is that weather affects the amount of energy consumed in various settings, the extent to which weather may impact consumption may however differ.
+In this study i used three general kinds of datasets - Milano Dataset, Trento Dataset and Weather Dataset. Weather data tells us the precipitation of every hours. Originally the data recorded was for every 10 minutes interval for all the given datasets. The Milano and Trento datasets include SMS in and out, calls in and out, and internet activity for the month of November and December 2013.The data was recorded with a 10 minute intervals for all the given features. The volume of this dataset was huge, approximately 46 gigabytes.
+
+### Analysis Tasks:
+
+The focus of this study was first wrangling the data and then finding out answers of the following queries:
+1. Find out the most called province by the people of Milano and Trento.
+2. Find out the congested communication hours in Milano and Trento.
+3. Find out the most tweeted languages in Milano for the given dates.
+4. Compare telecommunication usage of November and December 2013.
+5. Analyse and find out the pattern of telecommunication activities during the day time and night.
+6. Analyse the data and find out correlation between telecommunication activities for different weather conditions (Clear, Rain, Snow). 
 
 
-#### Consumption data
 
-Consumption data contains usage data for one year for three different premises, industrial building, commercial building and commercial real estate. Each of the locations have one meter so one number for the amount of electricity usage. The electricity consumption is in [Kilowatt hour](https://en.wikipedia.org/wiki/Kilowatt_hour).
+#### Provinces Data for Milano & Trento
 
-| Elec Consumption Variables (KWh)| mean   | min   | max    | std   | skewness | kurtosis |
-|:------------------------|:-------|:------|:-------|:------|:---------|:---------|
-| Industry consumer (ic)  | 1417,5 | 0,0   | 3777,8 | 1219,9|  0,4	   | -1,5     |
-| Commercial building (bc)| 464,4	 | 232,5 | 787,2	| 163,1 |  0,5	   | -1,2     |
-| Apartment Building (rc) | 358,6	 | 14,1	 | 1421,7	| 276,0	|  1,2	   |  0,8     |
+The data contains the timestamp, calls in and out, province names where the call is outgoing, and the location grid. The datasets referring to the Trentino territory are spatially aggregated using a grid. The grid consists of a cellid abd the cell geometry, which is  expressed as geoJSON. The portion of territory covered by the grid is shown in the following picture where the grid (red-gray) is overlaid to the northern part of Italy. The Trentino province is highlighted in violet.
 
-![weekly electricity consumption (may 2017 - may 2018)](./assets/images/weekly_el_consumption_all_customers.png)
+(./assets/images/trentino-grid-img2.png)
 
-Monthly overview of the electricity consumption data set.
 
 #### Weather data
 
