@@ -14,10 +14,10 @@ Calls data to and from both provinces Milano and Trento. Internet activity of bo
 <h2> Tools </h2>
 <p> I divided the tasks and data into two parts: Milano and Trento. The tool i used for this project is GraphLab. 
 GraphLab is a graph-based, high performance, distributed computation framework written in C++. I used it with python, the idea was to study parallel machine learning computation in python.
-
+</p>
 
 <img src="data/provinces_milano.png" alt="Provinces" style="width:128px;height:128px;">
 
-</p>
+
 
 </body>
