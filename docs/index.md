@@ -3,7 +3,7 @@ layout: default
 ---
 
 [Introduction](./index.html) | [Correlation Analysis](./pages/corr_analysis.html) | [Forecasting](./pages/forecasting.html) | [Conclusion](./pages/conclusion.html)
-
+Telecom Italia
 Electricity is a major contributor towards the cost of running facilities either in a commercial setting or a household setup. In this project we model electricity demand for three different categories of real estate projects - An Industrial Consumer, a Commercial Building and a Commercial Real Estate (apartment block).
 
 The objective is to use currently available electricity demand/usage data and weather data to analyze, model and forecast electricity demand across the three categories of electricity customers.
