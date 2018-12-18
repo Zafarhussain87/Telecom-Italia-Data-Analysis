@@ -44,6 +44,15 @@ If we look at the results, they indicate that Italian was the most tweeted langu
 
 ![Pop Languages](./assets/images/Most Used Languages.png)
 
+#### Telecommunication activities comparison of day and night usage
+
+To answer the question about communication pattern of users during day and night, the following bar chart gives a clear sight. It shows a continuous increase in usage from 8AM. There is a significant difference in usage during the day time and night time. From 8AM, the
+user’s activity in increasing but after 8PM its very low until 3AM. At 3 and 4 Am it is at its lowest.
+
+![Pop Languages](./assets/images/milano_day_night.png)
+
+
+
 
 
 [back](./../pages/index.html)                                                                             [next](./../pages/trento.html)
