@@ -14,7 +14,7 @@ the period of November and December.
 ![Trento Cog Hours](./../assets/images/trento-cong-hours.png)
 
 
-#### Most Called Province From Trento
+#### Most Called Provinces From Trento
 
 All the csv files from the directory are read through GraphLab as one single frame. The GraphLab makes it easy to read hundreds and thousands of files in parallel and returns them as a single frame. The returned frame was then processed to find out the provinces where people of Milan called the most.
 
