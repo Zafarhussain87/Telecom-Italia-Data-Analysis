@@ -11,12 +11,15 @@ plot the frames individually and together as distribution plots.
 
 The following are the results of overall telecommunication (sms, calls, and internet) during different weather conditions.  The first first two results are for clear weather and rainy weather. The results indicate that for the clear weather overall usage of calls, sms, internet activity is higher than rain days. 
 
-## Clear Weather and Total Telecommunication
+##### Clear Weather and Total Telecommunication
 ![Clear Weather](./../assets/images/clearweather.png)
+
+##### Rain Weather and Total Telecommunication
 ![Rain](./../assets/images/rainweather.png)
 
 Similarly, the data suggests that the telecommunication usage for rainy days is higher than the days when it is snowing.
 
+##### Snow Weather and Total Telecommunication
 ![Snow](./../assets/images/snoweather.png)
 
 To get a more detail understanding, following graph explicits the above described detail in more significant way.
