@@ -67,4 +67,4 @@ Temporal Aggregation: 10 minutes
 This dataset contains data derived from an analysis of geolocalized tweets originated from the Province of Trento and Milano, during the months of November and December 2013.
 Each row corresponds to a tweet. For privacy issues the user id has been obfuscated and the text has been replaced with a list of entites extracted by the Entity Extraction tool. Entities are provided as links to DBpedia. The geo-location of the tweets is approximated, with a maximum error of 600 meters.
 
-[next](./pages/milan.html)
+[next](./pages/milano.html)
