@@ -4,7 +4,7 @@ layout: default
 
 [Introduction](./index.html) | [Milano Data Analysis](./pages/milano.html) | [Trento Data Analysis](./pages/trento.html) | [Weather Correlation](./pages/correlation.html)
 
-At the beginning of 2014, Telecom Italia launched the first edition of the Big Data Challenge, a contest designed to stimulate the creation and development of innovative technological ideas in the Big Data field. For the analysis purpose, I used the data of two provinces Milano and Trento to analyse telecommunication activities, usage pattern, usage during the day and night. For the very provinces, i analysed the weather data and tried to find out the correlation between different weather conditions (clear, rainy, snow) and communication pattern. Since, the volume of data was huge, so a good was to apply the analysis methods was to use GraphLab as the purpose of this study was to learn parallel computation with big data. 
+At the beginning of 2014, Telecom Italia launched the first edition of the Big Data Challenge, a contest designed to stimulate the creation and development of innovative technological ideas in the Big Data field. For the analysis purpose, I used the data of two provinces Milano and Trento to analyse telecommunication activities, usage pattern, usage during the day and night. For the very provinces, i analysed the weather data and tried to find out the correlation between different weather conditions (clear, rainy, snow) and communication pattern. Since, the volume of data was huge, so a good way to apply the analysis methods was to use GraphLab as the purpose of this study was to learn parallel computation with big data. 
 
 ### Data Description
 
