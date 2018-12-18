@@ -33,7 +33,7 @@ Similarly, the internet usage as per the results, was higher in November than De
 
 ![Nov Internet](./../assets/images/Milano-Nov-Internet.png)
 
-![Dec Internet](./../assets/images/Milano-Dec-Internet.png)
+![Dec Internet](./../assets/images/Milano-Dec-internet.png)
 
 #### Most Tweeted Languages
 
@@ -42,7 +42,7 @@ This dataset contains data derived from an analysis of geolocalized tweets origi
 Each row corresponds to a tweet. For privacy issues the user id has been obfuscated and the text has been replaced with a list of entites extracted by the Entity Extraction API tool. Entities are provided as links to DBpedia.
 If we look at the results, they indicate that Italian was the most tweeted language, whereas English being the second and Spanish the third famous.
 
-![Pop Languages](./../assets/images/Most-Used-Languages.png)
+![Pop Languages](./../assets/images/Most-Used-languages.png)
 
 #### Telecommunication activities comparison of day and night usage
 
