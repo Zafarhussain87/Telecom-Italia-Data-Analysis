@@ -24,16 +24,16 @@ I read all the csv files from the directory through GraphLab as one single frame
 The data was given in two parts Nov and Dec. The purpose of this study was to analyse and compare the telecommunication activities of users for two different months. Following are the graphs of 4 columns Nov calls, Dec calls, Nov internet, and Dec internet. The
 results clearly show that the calls made in November are higher than December. In November, the most busy time periods were from 9 to 10 and then from 15 to 17. If we look at the results of December we can see that the most calls made were between 9 and 11. At 10, it was the most busy hour but in total the calls made in December were a lot lower in numbers than November.
 
-![Nov Calls](./assets/images/Milano Nov Calls.png)
+![Nov Calls](./assets/images/Milano-Nov-Calls.png)
 
-![Dec Calls](./assets/images/Milano Dec Calls.png)
+![Dec Calls](./assets/images/Milano-Dec-Calls.png)
 
 
 Similarly, the internet usage as per the results, was higher in November than December. The results are drawn for 24 hours and it recorded high usage of internet from 10 to 17 in November. If we compare the results of November with December, the high use was recorded at 11 and then from 14 to 17 in December.
 
-![Nov Internet](./assets/images/Milano Nov Internet.png)
+![Nov Internet](./assets/images/Milano-Nov-Internet.png)
 
-![Dec Internet](./assets/images/Milano Dec Internet.png)
+![Dec Internet](./assets/images/Milano-Dec-Internet.png)
 
 #### Most Tweeted Languages
 
@@ -42,7 +42,7 @@ This dataset contains data derived from an analysis of geolocalized tweets origi
 Each row corresponds to a tweet. For privacy issues the user id has been obfuscated and the text has been replaced with a list of entites extracted by the Entity Extraction API tool. Entities are provided as links to DBpedia.
 If we look at the results, they indicate that Italian was the most tweeted language, whereas English being the second and Spanish the third famous.
 
-![Pop Languages](./assets/images/Most Used Languages.png)
+![Pop Languages](./assets/images/Most-Used-Languages.png)
 
 #### Telecommunication activities comparison of day and night usage
 
