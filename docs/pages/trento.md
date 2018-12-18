@@ -6,7 +6,7 @@ layout: default
 
 Following the techniques used for Milano dataset, in Trento data analysis the telecommunication data was merged before applying the analysis techniques. Data was given with an interval of 10 minutes for sms in and out, calls in and out, and internet activity.
 
-#### Milano Congested Hours
+#### Trento Congested Hours
 
 I merged all this data on the basis of timestamp. Then the data was grouped together for the same hours. The same approach has been applied for the data of each day for November and December. In the end, the hours with maximum telecommunication congestion were filtered out. Following are the most busy hours in Trento along the total telecommunication activity over
 the period of November and December.
@@ -46,4 +46,4 @@ The following bar chart shows the same results.
 
 
 
-[back](./../pages/milano.html)                                                                             [next](./correlation.html)
+[back](./../index.html)                                                                            [next](./correlation.html)
