@@ -18,7 +18,7 @@ the period of November and December.
 
 All the csv files from the directory are read through GraphLab as one single frame. The GraphLab makes it easy to read hundreds and thousands of files in parallel and returns them as a single frame. The returned frame was then processed to find out the provinces where people of Milan called the most.
 
-![Trento Prov](./../assets/images/trentoprovince.png)
+![Trento Prov](./../assets/images/torentoprovince.png)
 
 #### Telecommunication activities in November and December 2013
 
@@ -29,12 +29,6 @@ Trento was recorded a bit higher than 6e7, whereas in Milano the highest activit
 
 ![Trento Bar](./../assets/images/Trento-total-bars.png)
 
-
-Similarly, the internet usage as per the results, was higher in November than December. The results are drawn for 24 hours and it recorded high usage of internet from 10 to 17 in November. If we compare the results of November with December, the high use was recorded at 11 and then from 14 to 17 in December.
-
-![Nov Internet](./../assets/images/Milano-Nov-Internet.png)
-
-![Dec Internet](./../assets/images/Milano-Dec-internet.png)
 
 
 #### Telecommunication activities comparison of day and night usage
