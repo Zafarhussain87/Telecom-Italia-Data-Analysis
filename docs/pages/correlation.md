@@ -21,10 +21,11 @@ The following are the results of overall telecommunication (sms, calls, and inte
 Similarly, the data suggests that the telecommunication usage for rainy days is higher than the days when it is snowing.
 
  ###### Snow Weather and Total Telecommunication
-![Snow](./../assets/images/snoweather.png)
+![Snow](./../assets/images/snowweather.png)
                                            
 To get a more detail understanding, following graph explicits the above described detail in more significant way.
 
+##### Different weather conditions & Telecommunication usage
 ![comparison](./../assets/images/weathercomparison.png)
 
 
